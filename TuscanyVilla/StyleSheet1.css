@@ -1,0 +1,32 @@
+﻿body {
+}
+.page-header{
+    background-color:#C9CDCA;
+    margin-top:0px;
+    padding-top:0px;
+    
+}
+#design{
+    margin:0px;
+    font-family: 'Pacifico', cursive;
+    padding-bottom:50px;
+    margin-left:30%;
+}
+#homepage{
+    margin:0px;
+    padding-top:50px;
+    margin-left:30%;
+}
+#meat{
+    margin-left:25%;
+    margin-right:25%;
+}
+#properties{
+    text-align:right;
+    background-color:#AAABAB;
+    color:white;
+}
+#windows{
+    background-color:#837B7C;
+    color:white;
+}
