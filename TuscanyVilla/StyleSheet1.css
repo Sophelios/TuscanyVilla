@@ -1,25 +1,33 @@
-﻿body {
-}
+﻿/*HEADER*/
 .page-header{
     background-color:#C9CDCA;
     margin-top:0px;
     padding-top:0px;
+    margin-bottom:0px;
+    padding-bottom:0px;
     
 }
 #design{
     margin:0px;
     font-family: 'Pacifico', cursive;
     padding-bottom:50px;
-    margin-left:30%;
+    text-align:center;
 }
 #homepage{
     margin:0px;
     padding-top:50px;
-    margin-left:30%;
+    text-align:center;
+}
+
+/*NAV BAR*/
+#navvy{
+    margin-top:0px;
+}
+#navCont{
+    padding-right:0px;
 }
 #meat{
-    margin-left:25%;
-    margin-right:25%;
+    margin-left:30%;
 }
 #properties{
     text-align:right;
@@ -29,4 +37,22 @@
 #windows{
     background-color:#837B7C;
     color:white;
+}
+
+
+
+/*GRID*/
+/*#pic1-1 {
+    background-image: url('Images/tuscany-villas-sant-anna.jpg');
+}
+#pic1-2 {
+    background-image: url('Images/Versilia.jpg');
+}*/
+.squares{
+    border:solid 1px;
+    height:200px;
+}
+#txtPosit{
+    margin-left:25%;
+    margin-top:25%;
 }
