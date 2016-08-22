@@ -67,6 +67,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Bootstrap\bootstrap-theme.css.map" />
+    <Content Include="Bootstrap\bootstrap-theme.min.css.map" />
+    <Content Include="Bootstrap\bootstrap.css.map" />
+    <Content Include="Bootstrap\bootstrap.min.css.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,6 +79,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bootstrap\bootstrap-theme.css" />
+    <Content Include="Bootstrap\bootstrap-theme.min.css" />
+    <Content Include="Bootstrap\bootstrap.css" />
+    <Content Include="Bootstrap\bootstrap.js" />
+    <Content Include="Bootstrap\bootstrap.min.css" />
+    <Content Include="Bootstrap\bootstrap.min.js" />
+    <Content Include="Bootstrap\npm.js" />
     <Content Include="Images\314-348x348.jpg" />
     <Content Include="Images\3b-348x348.jpg" />
     <Content Include="Images\42-348x348.jpg" />

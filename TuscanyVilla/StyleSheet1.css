@@ -42,17 +42,48 @@
 
 
 /*GRID*/
-/*#pic1-1 {
-    background-image: url('Images/tuscany-villas-sant-anna.jpg');
-}
-#pic1-2 {
-    background-image: url('Images/Versilia.jpg');
-}*/
+
 .squares{
     border:solid 1px;
     height:200px;
+    background-size: cover;
+    background-repeat: no-repeat; /* when we resize the image, this provents a repeating image to fill the container*/
+}
+.topSquares{
+    border:solid 1px;
+    height:400px;
+    background-size: auto 100%; /* Resizes images to the size of their container*/
 }
 #txtPosit{
     margin-left:25%;
     margin-top:25%;
+}
+/*IMAGES*/
+#pic1-1 {
+    background-image: url('Images/tuscany-villas-sant-anna.jpg');
+}
+#pic1-2 {
+    background-image: url('Images/Versilia.jpg');
+}
+#pic2-2 {
+    background-image: url('Images/314-348x348.jpg');
+}
+#pic2-3 {
+    background-image: url('Images/3b-348x348.jpg');
+}
+#pic2-4 {
+    background-image: url('Images/42-348x348.jpg');
+}
+#pic3-1 {
+    background: url('Images/Tartufo_020_In_Evening_Sun.jpg');
+    
+}
+#pic3-3 {
+    background-image: url('Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+}
+#pic4-2 {
+    background-image: url('Images/Villa-Vanna-231-348x348.jpg');
+}
+h4 .rows{
+    margin-top:10%;
 }
